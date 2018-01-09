@@ -9,6 +9,6 @@ store:
   restart: always
   image: devnill/redis:latest
   volumes:
-   - ./redis:/usr/local/etc/redis/
-   ports:
-   - "6379:6379"
+    - ./redis:/usr/local/etc/redis
+  ports:
+    - "6379:6379"
