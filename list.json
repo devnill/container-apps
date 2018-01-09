@@ -143,8 +143,8 @@
         "location": "http://download.qnap.com/QPKG/container/debian-jessie_8_amd64.tar.gz",
         "type": "lxc"
     },
-    "description": "Fedora (formerly Fedora Core) is an operating system based on the Linux kernel, developed by the community-supported Fedora Project and owned by Red Hat.",
-        {
+    {
+        "description": "Fedora (formerly Fedora Core) is an operating system based on the Linux kernel, developed by the community-supported Fedora Project and owned by Red Hat.",    
         "repository": "qnap",
         "inspect": "{}",
         "arch": "amd64",
