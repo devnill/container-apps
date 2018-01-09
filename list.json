@@ -5,7 +5,7 @@
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png",
         "displayName": "GDAX Logger",
-        "name": "gitlab",
+        "name": "gdax-logger",
         "version": "0.0.1",
         "location": "https://hub.docker.com/r/devnill/gdax-logger/",
         "type": "app"
