@@ -1,0 +1,12 @@
+logger:
+  image: devnill/gdax-logger:latest
+  links:
+    - store:store
+  environment:
+    REDIS_HOST: store
+    REDIS_PORT: 6379
+store:
+  restart: always
+  image: devnill/redis:latest
+  volumes:
+   - /data/redis
